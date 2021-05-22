@@ -1,0 +1,19 @@
+To Get Help-Related Data Which can be one of the following:
+    Plasma
+    Oxygen
+    Bed
+    Emergency
+When you pass this argument to api You will get data about:
+   Title (Help - Title)
+   Content (Help-Description)
+   Posted Date
+   Location 
+   Help-Type
+
+for e.g localhost:8000/api/Plasma/:
+   {
+    "title": "Need Plasma",
+    "content": "Need Plasma emergency",
+    "date": "2021-05-18T14:15:00.923853Z",
+    "help_type": "Plasma"
+}
